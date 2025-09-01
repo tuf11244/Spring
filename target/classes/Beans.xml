@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="animal1" class="com.mycompany.spring.Animal">
+        <constructor-arg value="Lion"/>
+        <constructor-arg value="Simba"/>
+        <constructor-arg value="5"/>
+    </bean>
+    
+    
+    <bean id="animal2" class="com.mycompany.spring.Animal">
+        <constructor-arg value="Wolf"/>
+        <constructor-arg value="Raksha"/>
+        <constructor-arg value="5"/>
+    </bean>
+    
+    <bean id="animal3" class="com.mycompany.spring.Animal">
+        <constructor-arg value="Tiger"/>
+        <constructor-arg value="Sher Khan"/>
+        <constructor-arg value="2"/>
+    </bean>
+    
+</beans>
+
+
